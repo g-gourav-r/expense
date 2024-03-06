@@ -1,0 +1,7 @@
+body {
+    overflow: hidden; /* Disable scrolling for the entire page */
+}
+.container-fluid {
+    display: flex;
+    overflow: hidden; /* Disable scrolling for the entire container */
+}

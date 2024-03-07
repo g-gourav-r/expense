@@ -1,6 +1,6 @@
 .container-fluid {
   display: flex;
-  overflow: hidden;
+  /* overflow: hidden; */
   background-color: black;
 }
 

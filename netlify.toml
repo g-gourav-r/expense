@@ -1,0 +1,2 @@
+[build]
+  publish = "Frontend"  # Specify the directory where your HTML and CSS files are located

@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./temp.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="content-wrapper rounded row">
+        <div
+          class="left-wrapper col-md-6 p-3 d-flex justify-content-center align-items-center"
+        >
+          <div class="rounded m-2 p-5">
+            <div class="card m-4 p-2">
+              <div class="card-body rounded">
+                <h5 class="card-title">Card</h5>
+                <div class="row no-gutters mb-3">
+                  <div class="col-auto">Name: Gourav R</div>
+                  <div class="col-auto">Year/Month</div>
+                </div>
+                <div class="row no-gutters mb-3">
+                  <div class="col-auto">Balance</div>
+                  <div class="col-auto">20000</div>
+                </div>
+                <div class="row no-gutters mb-3">
+                  <div class="col-6">
+                    <div class="row no-gutters">
+                      <div class="col-auto">Date</div>
+                      <div class="col-auto">3/6/2024</div>
+                    </div>
+                    <div class="row no-gutters">
+                      <div class="col-auto">Spent</div>
+                      <div class="col-auto">3/6/2024</div>
+                    </div>
+                  </div>
+                  <div class="col-6">Logo</div>
+                </div>
+              </div>
+            </div>
+            <div class="operations-card col-md-12 mt-5 rounded p-3">
+              <div class="row mb-3 p-2">
+                <div class="col-md-4">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Expense"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Amount"
+                  />
+                </div>
+                <div class="col-md-4">
+                  <button type="button" class="btn">Add Expense</button>
+                </div>
+              </div>
+              <div class="row p-2">
+                <div class="col-md-8">
+                  <select name="months" id="months" class="form-select me-3">
+                    <option value="january">January</option>
+                    <option value="february">February</option>
+                    <option value="march">March</option>
+                    <option value="april">April</option>
+                    <option value="may">May</option>
+                    <option value="june">June</option>
+                    <option value="july">July</option>
+                    <option value="august">August</option>
+                    <option value="september">September</option>
+                    <option value="october">October</option>
+                    <option value="november">November</option>
+                    <option value="december">December</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <button type="button" class="btn">View Expense</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div
+          class="right-wrapper col-md-6 p-3 d-flex justify-content-center align-items-center"
+        >
+          <div class="expense-wrapper rounded">
+            <h1 class="expense-heading text-center">Expenses</h1>
+            <div class="expenses rounded">
+              <!-- Single Entries -->
+              <div class="row m-3 p-2 single-entry rounded">
+                <div class="col-md-4 d-flex align-items-center">Taxi</div>
+                <div class="col-md-4 d-flex align-items-center">200</div>
+                <div
+                  class="col-md-4 d-flex align-items-center justify-content-center"
+                >
+                  <button type="button" class="btn">Delete Expense</button>
+                </div>
+              </div>
+              <!-- single entry end -->
+              <!-- Single Entries -->
+              <div class="row m-3 p-2 single-entry rounded">
+                <div class="col-md-4 d-flex align-items-center">Taxi</div>
+                <div class="col-md-4 d-flex align-items-center">200</div>
+                <div
+                  class="col-md-4 d-flex align-items-center justify-content-center"
+                >
+                  <button type="button" class="btn">Delete Expense</button>
+                </div>
+              </div>
+              <!-- single entry end -->
+              <!-- Single Entries -->
+              <div class="row m-3 p-2 single-entry rounded">
+                <div class="col-md-4 d-flex align-items-center">Taxi</div>
+                <div class="col-md-4 d-flex align-items-center">200</div>
+                <div
+                  class="col-md-4 d-flex align-items-center justify-content-center"
+                >
+                  <button type="button" class="btn">Delete Expense</button>
+                </div>
+              </div>
+              <!-- single entry end -->
+              <!-- Single Entries -->
+              <div class="row m-3 p-2 single-entry rounded">
+                <div class="col-md-4 d-flex align-items-center">Taxi</div>
+                <div class="col-md-4 d-flex align-items-center">200</div>
+                <div
+                  class="col-md-4 d-flex align-items-center justify-content-center"
+                >
+                  <button type="button" class="btn">Delete Expense</button>
+                </div>
+              </div>
+              <!-- single entry end -->
+              <!-- Single Entries -->
+              <div class="row m-3 p-2 single-entry rounded">
+                <div class="col-md-4 d-flex align-items-center">Taxi</div>
+                <div class="col-md-4 d-flex align-items-center">200</div>
+                <div
+                  class="col-md-4 d-flex align-items-center justify-content-center"
+                >
+                  <button type="button" class="btn">Delete Expense</button>
+                </div>
+              </div>
+              <!-- single entry end -->
+              <!-- Single Entries -->
+              <div class="row m-3 p-2 single-entry rounded">
+                <div class="col-md-4 d-flex align-items-center">Taxi</div>
+                <div class="col-md-4 d-flex align-items-center">200</div>
+                <div
+                  class="col-md-4 d-flex align-items-center justify-content-center"
+                >
+                  <button type="button" class="btn">Delete Expense</button>
+                </div>
+              </div>
+              <!-- single entry end -->
+              <!-- Single Entries -->
+              <div class="row m-3 p-2 single-entry rounded">
+                <div class="col-md-4 d-flex align-items-center">Taxi</div>
+                <div class="col-md-4 d-flex align-items-center">200</div>
+                <div
+                  class="col-md-4 d-flex align-items-center justify-content-center"
+                >
+                  <button type="button" class="btn">Delete Expense</button>
+                </div>
+              </div>
+              <!-- single entry end -->
+              <!-- Single Entries -->
+              <div class="row m-3 p-2 single-entry rounded">
+                <div class="col-md-4 d-flex align-items-center">Taxi</div>
+                <div class="col-md-4 d-flex align-items-center">200</div>
+                <div
+                  class="col-md-4 d-flex align-items-center justify-content-center"
+                >
+                  <button type="button" class="btn">Delete Expense</button>
+                </div>
+              </div>
+              <!-- single entry end -->
+              <!-- Single Entries -->
+              <div class="row m-3 p-2 single-entry rounded">
+                <div class="col-md-4 d-flex align-items-center">Taxi</div>
+                <div class="col-md-4 d-flex align-items-center">200</div>
+                <div
+                  class="col-md-4 d-flex align-items-center justify-content-center"
+                >
+                  <button type="button" class="btn">Delete Expense</button>
+                </div>
+              </div>
+              <!-- single entry end -->
+              <!-- Single Entries -->
+              <div class="row m-3 p-2 single-entry rounded">
+                <div class="col-md-4 d-flex align-items-center">Taxi</div>
+                <div class="col-md-4 d-flex align-items-center">200</div>
+                <div
+                  class="col-md-4 d-flex align-items-center justify-content-center"
+                >
+                  <button type="button" class="btn">Delete Expense</button>
+                </div>
+              </div>
+              <!-- single entry end -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

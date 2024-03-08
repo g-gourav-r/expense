@@ -1,0 +1,143 @@
+/* Generic Styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+/* Main Content Styles */
+.content-wrapper {
+  min-height: 93vh;
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border: 1px solid #bfb293;
+}
+
+/* Hide Scroll Bars */
+body::-webkit-scrollbar,
+.expenses::-webkit-scrollbar {
+  display: none;
+}
+
+/**************************/
+/* Left Side Box Styling */
+/**************************/
+
+/* Left Wrapper Styles */
+
+/* .left-wrapper {
+  background-color: pink;
+  color: white;
+} */
+.card {
+  background-color: #26221f !important;
+  border: 1px solid #bfb293 !important;
+}
+.card-body {
+  margin: 0;
+  padding: 0;
+  border: 1px solid #bfb293;
+  background-color: black;
+  color: #bfb293 !important ;
+}
+/* Operations Card Styles */
+.operations-card {
+  background-color: #26221f;
+  color: #bfb293;
+  border: 1px solid #bfb293;
+  transition: box-shadow 0.3s ease;
+  outline: none;
+}
+
+.operations-card input,
+.operations-card select,
+.operations-card button {
+  border: 1px solid #bfb293;
+  transition: box-shadow 0.3s ease;
+  outline: none;
+}
+
+.operations-card input,
+.operations-card select {
+  background-color: #26221f;
+  color: #bfb293;
+}
+
+.operations-card button {
+  background-color: #bfb293;
+  color: #26221f;
+}
+
+.operations-card input::placeholder {
+  color: #bfb293;
+}
+
+.operations-card input:hover,
+.operations-card button:hover {
+  box-shadow: 0 0 10px #bfb293;
+}
+
+.operations-card input:focus,
+.operations-card select:focus {
+  background-color: #26221f;
+  color: #bfb293;
+  border: 2px solid #bfb293;
+}
+
+/************************/
+/* Right Side Contenet */
+/**********************/
+.expense-wrapper {
+  border: 1px solid #bfb293;
+  height: 90%;
+  width: 90%;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.expense-heading {
+  color: #bfb293;
+}
+.expenses {
+  height: 80vh;
+  width: 100%;
+  overflow-y: auto;
+}
+/************************/
+/* Single Entry Styles */
+/************************/
+
+.single-entry {
+  border: 1px solid #bfb293;
+  background-color: #26221f;
+}
+
+.single-entry button {
+  background-color: #bfb293;
+  color: #26221f;
+}
+
+.single-entry input::placeholder {
+  color: #bfb293;
+}
+
+.single-entry input:hover,
+.single-entry button:hover {
+  box-shadow: 0 0 10px #bfb293;
+}
+
+.single-entry input:focus,
+.single-entry select:focus {
+  background-color: #26221f;
+  color: #bfb293;
+  border: 2px solid #bfb293;
+}
